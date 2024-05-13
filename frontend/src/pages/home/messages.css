@@ -1,0 +1,14 @@
+.lighter {
+    background-color: #0c0f12fd;
+}
+
+.bluish {
+    color: #b8f6fc;
+    /* color: #b2dde3; */
+}
+
+.mode {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
