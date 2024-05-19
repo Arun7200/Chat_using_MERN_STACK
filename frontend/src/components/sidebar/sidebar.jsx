@@ -1,7 +1,6 @@
 import React from 'react'
 import Search from './search.jsx'
 import Conversations from './Conversations.jsx'
-import Logout from './logout.jsx'
 
 const Sidebar = () => {
     return (

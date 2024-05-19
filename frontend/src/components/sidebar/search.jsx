@@ -39,16 +39,7 @@ const Search = () => {
                 </div>
             </form>
         </div>
-        //     <div className='grow'>
-        //     <input className="input input-bordered w-full  " type="text" placeholder="Type you message..." autoFocus value={message} onChange={(e) => setMessage(e.target.value)} />
 
-        // </div>
-        // <div className='grow-0'>
-        //     <button className='btn  btn-square ml-2 bluish font-bold' type='submit' >
-        //         <VscSend />
-        //     </button>
-
-        // </div>
     )
 }
 
