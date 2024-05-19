@@ -1,25 +1,18 @@
 import React from 'react'
 import Conversation from './Conversation.jsx';
+import useGetConversations from '../../hooks/useGetConversations.js';
+
 const Conversations = () => {
+    const { loading, conversations } = useGetConversations();
     return (
-        <div className='mt-3 h-full  overflow-y-scroller overflow-x-hidden '>
-            {/* <div className='border mt-3  border-b-slate-700 border-transparent '> */}
-            <Conversation />
-            <Conversation />
-            <Conversation />
-            <Conversation />
-            <Conversation />
-            <Conversation />
-            <Conversation />
-            <Conversation />
+        <div className='  w-full overflow-y-scroller overflow-x-hidden  '>
+            {
+                Array.from(conversations).map(
+                    (conversation) => (<Conversation key={conversation._id} conversation={conversation} />)
+                )
+            }
 
-
-            {/* <Conversation />
-            <Conversation />
-            <Conversation />
-            <Conversation /> */}
-
-
+            {loading ? <span className='loading loading-spinner mx-auto'></span> : null}
         </div>
     )
 }

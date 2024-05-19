@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic cars Form</title>
+    <style>
+        body {
+            background: #0d1117;
+            /* GitHub dark mode background */
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background: #161b22;
+            /* Dark container background */
+            padding: 20px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .form-container h2 {
+            margin-bottom: 20px;
+            color: #c9d1d9;
+            /* Light text color */
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #8b949e;
+            /* Muted text color */
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #30363d;
+            /* Input border color */
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+            background: #0d1117;
+            /* Input background color */
+            color: #c9d1d9;
+            /* Light text color */
+        }
+
+        .form-group input:focus {
+            border-color: #58a6ff;
+            /* Focus border color */
+            outline: none;
+        }
+
+        button {
+            background: #fdfffd;
+            /* Button background color */
+            color: #000000;
+            /* Button text color */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 1s;
+            margin: 30px;
+            width: 200px;
+        }
+
+        button:hover {
+            background: #181818;
+            transform: scale(1.2);
+            transition: all 1s;
+            color: white;
+            /* Button hover background color */
+        }
+
+        h1 {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>CLASSIC CARS</h1>
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="number">Phone Number</label>
+                <input type="tel" id="number" name="number" required pattern="\d{10}" maxlength="10"
+                    title="Please enter exactly 10 digits">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

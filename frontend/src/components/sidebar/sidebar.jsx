@@ -5,17 +5,17 @@ import Logout from './logout.jsx'
 
 const Sidebar = () => {
     return (
-        <div className='h-full'>
-            <div>
+        <div className=' h-full w-full flex flex-col items-center justify-start pt-10'>
+            < div className='w-full h-1/6' >
                 <Search />
 
-            </div>
-            <div className='h-5/6'>
+            </div >
+            <div className='  w-full h-5/6 overflow-auto'>
                 <Conversations />
 
             </div>
 
-        </div>
+        </div >
     )
 }
 
