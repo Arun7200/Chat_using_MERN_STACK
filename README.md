@@ -1,7 +1,14 @@
 ## Chat Application with MERN and Socket.io
-[![VISIT](https://img.shields.io/badge/-VISIT-blue?style=for-the-badge)](https://chatappmern-5ski.onrender.com)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) 
+![Socket.io](https://img.shields.io/badge/Socket.io-010002?style=for-the-badge&logo=socketdotio&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) 
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 A MERN stack-based chat app that uses Socket.io for real-time messaging, with features like instant message notifications, active user status indicators, and a robust backend to support smooth user interactions.
+
+[![VISIT](https://img.shields.io/badge/-VISIT-blue?style=for-the-badge)](https://chatappmern-5ski.onrender.com)
 
 ## Tech Stack
 - ` React.js ` : A JavaScript library for building dynamic user interfaces with reusable components.
@@ -46,10 +53,12 @@ First, run the development server:
 ```bash
 npm run server
 ```
+<br>
+Open port `8000` on `localhost` with your browser to see the result.
 
-Open [http://localhost:8000](http://localhost:8000) with your browser to see the result.
+Try the live application [here](https://chatappmern-5ski.onrender.com).
 
-Try the hosted application [here](https://chatappmern-5ski.onrender.com).
+<br>
 
 ## Sample Screenshots
 ![Screenshot 2025-02-03 235029](https://github.com/user-attachments/assets/d3613f03-d8c4-499a-88f6-b508b27897a6)
