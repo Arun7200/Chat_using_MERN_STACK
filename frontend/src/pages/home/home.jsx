@@ -21,7 +21,7 @@ const Home = () => {
     if (width > 863) {
 
         return (
-            <div className='border border-gray-700  flex flex-row items-center justify-center w-10/12 p lighter h-3/5 '>
+            <div className='border border-gray-700  flex flex-row items-center justify-center w-11/12 p lighter h-[90vh] '>
                 <div className="w-full h-full flex">
 
                     <div className=' w-1/12  flex justify-center items-center bluish  ' >
