@@ -3,6 +3,14 @@
 
 A MERN stack-based chat app that uses Socket.io for real-time messaging, with features like instant message notifications, active user status indicators, and a robust backend to support smooth user interactions.
 
+## Tech Stack
+- ` React.js ` : A JavaScript library for building dynamic user interfaces with reusable components.
+- ` Node.js `: A server-side runtime that allows running JavaScript on the backend.
+- ` Express.js `: A lightweight web framework for Node.js used to create server-side APIs and handle HTTP requests.
+- ` MongoDB ` : A NoSQL database that stores data in flexible, JSON-like documents.
+- ` Socket.io ` : A real-time communication library that enables bidirectional, event-based interactions between clients and servers.
+- ` Tailwind-CSS` : A utility-first CSS framework for building custom, responsive designs quickly by composing classes directly in HTML.
+
 ## Getting Started
 
 ### 1. Clone the Repository
@@ -19,7 +27,19 @@ Change the directory and Install the required dependencies by running:
 cd MERN-Chat-App-with-SOCKET.io
 npm run build
 ```
-### 3. Run Dev server Locally
+
+### 3. Setup Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+```bash
+JWT_Secret
+mongo_db_uri
+PORT
+```
+A sample .evn file is also provided in the repository.
+
+
+### 4. Run Dev server Locally
 
 First, run the development server:
 
