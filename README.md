@@ -54,6 +54,7 @@ First, run the development server:
 npm run server
 ```
 <br>
+
 Open port `8000` on `localhost` with your browser to see the result.
 
 Try the live application [here](https://chatappmern-5ski.onrender.com).
